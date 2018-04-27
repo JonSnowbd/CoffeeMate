@@ -2,9 +2,11 @@
 
 A tool to help manage your different kinds of coffee.
 
+![Illustration of CoffeeMate](https://i.imgur.com/ML6ygwn.png)
+
 ## Download
 
-[Click here for Windows 64/32 build]()
+[Click here for Windows 64/32 build](https://raw.githubusercontent.com/JonSnowbd/CoffeeMate/master/Distro/CoffeeMate_Windows.exe)
 
 ## How to
 
