@@ -55,7 +55,7 @@
         <GroupBox Grid.Column="2" Header="Calculation" Margin="8,8,8,8" Grid.Row="1">
             <Grid>
                 <Label>Grams of Water to fill your cup(s)</Label>
-                <TextBox Text="{Binding Path=WaterPerCup, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Margin="3,30,3,0"></TextBox>
+                <TextBox Text="{Binding Path=WaterPerCup, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Margin="3,25,3,0"></TextBox>
                 <Label Content="Strength" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,13" Height="30"/>
 
                 <Label Content="{Binding TotalCoffeeNeeded}" VerticalAlignment="Bottom" Margin="3,0,3,50"></Label>
@@ -82,6 +82,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        
         <Button x:Name="AddGroundButton" Content="+" Margin="5,0,0,5" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="30" Height="30" />
         <Button x:Name="DeleteGroundButton" Content="-" Margin="0,0,0,5" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="30" Height="30" />
 
